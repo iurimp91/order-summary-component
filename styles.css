@@ -52,12 +52,23 @@ body {
   border-radius: 10px;
 }
 
-.payment-container div {
+.payment-container > div {
   display: flex;
+  align-items: center;
 }
 
 .payment-plan {
-  height: 100%;
+  display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  margin-left: 20px;
+}
+
+.payment-plan span:first-child {
+  font-weight: 900;
+  margin-bottom: 10px;
+  color: hsl(223, 47%, 23%);
+}
+
+.payment-plan span:last-child {
+  color: hsl(224, 23%, 55%);
 }
