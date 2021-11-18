@@ -42,6 +42,22 @@ body {
   line-height: 25px;
 }
 
-.plan-container {
-  
+.payment-container {
+  width: 75%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 30px;
+  background-color: hsl(225, 100%, 98%);
+  padding: 25px 25px;
+  border-radius: 10px;
+}
+
+.payment-container div {
+  display: flex;
+}
+
+.payment-plan {
+  height: 100%;
+  flex-direction: column;
+  justify-content: space-between;
 }
