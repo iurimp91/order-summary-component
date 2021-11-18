@@ -1,4 +1,21 @@
 body {
-    background: url(./images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
-    background-repeat: no-repeat;
+  background: url(./images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
+  background-repeat: no-repeat;
+}
+
+.main-container {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.card-container {
+  width: 350px;
+  height: 500px;
+  border-radius: 20px;
+  background: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
