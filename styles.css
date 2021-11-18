@@ -1,6 +1,9 @@
 body {
   background: url(./images/pattern-background-desktop.svg), hsl(225, 100%, 94%);
   background-repeat: no-repeat;
+}
+
+body, a {
   font-family: 'Red Hat Display';
 }
 
@@ -46,6 +49,7 @@ body {
   width: 75%;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   margin-top: 30px;
   background-color: hsl(225, 100%, 98%);
   padding: 25px 25px;
@@ -55,6 +59,16 @@ body {
 .payment-container > div {
   display: flex;
   align-items: center;
+}
+
+.payment-container a {
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.payment-container a:hover {
+  text-decoration: none;
+  color: hsl(245, 75%, 52%);
 }
 
 .payment-plan {
