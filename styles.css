@@ -3,7 +3,7 @@ body {
   background-repeat: no-repeat;
 }
 
-body, a {
+body, a, button {
   font-family: 'Red Hat Display';
 }
 
@@ -16,7 +16,6 @@ body, a {
 
 .card-container {
   width: 400px;
-  height: 550px;
   background: white;
   border-radius: 20px;
   display: flex;
@@ -85,4 +84,19 @@ body, a {
 
 .payment-plan span:last-child {
   color: hsl(224, 23%, 55%);
+}
+
+button {
+  width: 75%;
+  height: 50px;
+  border: none;
+  border-radius: 10px;
+  background: hsl(245, 75%, 52%);
+  color: white;
+  box-shadow: 0 10px 20px lightgrey;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-weight: 700;
+  cursor: pointer;
+  font-size: 14px;
 }
