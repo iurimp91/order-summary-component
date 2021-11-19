@@ -19,9 +19,6 @@ body, a, button {
   width: 450px;
   background: white;
   border-radius: 20px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
   overflow: hidden;
   box-shadow: 0 10px 20px lightgrey;
 }
@@ -63,7 +60,7 @@ body, a, button {
   border-radius: 10px;
 }
 
-.payment-container > div {
+.payment-container div:first-child {
   display: flex;
   align-items: center;
 }
@@ -80,18 +77,16 @@ body, a, button {
 }
 
 .payment-plan {
-  display: flex;
-  flex-direction: column;
   margin-left: 20px;
 }
 
-.payment-plan span:first-child {
+.payment-plan h2:first-child {
   font-weight: 900;
   margin-bottom: 10px;
   color: hsl(223, 47%, 23%);
 }
 
-.payment-plan span:last-child {
+.payment-plan h2:last-child {
   color: hsl(224, 23%, 55%);
 }
 
@@ -123,4 +118,12 @@ button:hover {
 
 .cancel-button:hover {
   color:hsl(223, 47%, 23%);
+}
+
+@media (max-width: 400px) {
+  body {
+    background: url(./images/pattern-background-mobile.svg), hsl(225, 100%, 94%);
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
 }
